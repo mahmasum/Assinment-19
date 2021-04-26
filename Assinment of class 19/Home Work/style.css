@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    background-image: url('https://preview.colorlib.com/theme/nurture/images/hero_bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 500px 300px;
+}
+.menu {
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    transition: .4s;
+    transform: translateY(-467px);
+    padding: 10px 35px;
+}
+.menu li a{
+    color: #932524;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 20px;
+}
+.menu li a:hover{
+  background-color: white;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    transform: translateY(-267px);
+}
+.maindiv > p{
+    color: white;
+    font-size: 20px;
+    transform: translateY(-230px);
+}
+button{
+    border: none;
+    background-color: #0fb78d;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    transform: translateY(-130px);
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+button:hover{
+    background: blue;
+    cursor: pointer;
+}
+.bd{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .5s;
+}
+.bd:hover{
+    background-color: turquoise;
+    cursor: pointer;
+}
+i{
+    font-size: 30px;
+}
+
+.div1{
+    background: #5cb100;
+    display: inline-block;
+    transform: translate(-144px,258px);
+}
+.div2{
+    background: #ec661f;
+    display: inline-block;
+    display: inline-block;
+    transform: translate(-38px,258px);
+}
+.div3{
+    background: #4fb0dc;
+    display: inline-block;
+    display: inline-block;
+    transform: translate(43px,258px);
+}
+p{
+    padding-top: 10px;
+}
+.foter{
+    text-align: center;
+}
+.foter p{
+    transform: translateY(460px);
+}
+.foter li{
+    display: inline-block;
+    transition: .4s;
+    transform: translateY(450px);
+    padding: 10px 35px;
+}
+.foter li a{
+    color: #932524;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 20px;
+}
+.foter li a:hover{
+  background-color: white;
+}
